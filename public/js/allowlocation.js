@@ -1,6 +1,6 @@
 if(navigator.geolocation)
 {
-    navigator.geolocation.getCurrentPosition(success);
+    navigator.geolocation.getCurrentPosition(success, error);
 }
 
 function success(position)
