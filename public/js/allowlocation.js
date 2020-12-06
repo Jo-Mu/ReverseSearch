@@ -3,7 +3,7 @@ if(navigator.geolocation)
     navigator.geolocation.getCurrentPosition(success);
 }
 
-function success()
+function success(position)
 {
     var latitude = position.coords.latitude;
     var longitude = position.coords.longitude;
